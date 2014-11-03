@@ -2,7 +2,7 @@
 class loadFiles{
     
     public static function library($file){
-        $file='lib/'.$file.'.php';
+        $file='lib/'.$file.'.php';        
         if(file_exists($file)){
             require $file;
         }
@@ -24,6 +24,6 @@ class loadFiles{
 }
 spl_autoload_register(array('loadFiles','library'));
 spl_autoload_register(array('loadFiles','driver'));
-new Bootstrap();
 new path();
+new Bootstrap();
 ?>
