@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>added title Free Adidas Website Template | Home :: w3layouts</title>
+<title>added title </title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="<?php echo INCLUDE_PATH ?>css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
-<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="<?php echo INCLUDE_PATH ?>js/jquery.min.js"></script>
 <script type="text/javascript">
         $(document).ready(function() {
             $(".dropdown img.flag").addClass("flagvisibility");
@@ -39,13 +39,13 @@
         });
      </script>
 <!-- start menu -->     
-<link href="css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
-<script type="text/javascript" src="js/megamenu.js"></script>
+<link href="<?php echo INCLUDE_PATH ?>css/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="<?php echo INCLUDE_PATH ?>js/megamenu.js"></script>
 <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
 <!-- end menu -->
 <!-- top scrolling -->
-<script type="text/javascript" src="js/move-top.js"></script>
-<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="<?php echo INCLUDE_PATH ?>js/move-top.js"></script>
+<script type="text/javascript" src="<?php echo INCLUDE_PATH ?>js/easing.js"></script>
    <script type="text/javascript">
 		jQuery(document).ready(function($) {
 			$(".scroll").click(function(event){		
@@ -59,7 +59,7 @@
   <div class="header-top">
 	 <div class="wrap"> 
 		<div class="logo">
-			<a href="index.html"><img src="images/logo.png" alt=""/></a>
+			<a href="index.html"><img src="<?php echo INCLUDE_PATH ?>images/logo.png" alt=""/></a>
 	    </div>
 	    <div class="cssmenu">
 		   <ul>
@@ -601,7 +601,7 @@
 				  <article style="position: relative; width: 100%; opacity: 1;"> 
 				   	<div class="banner-wrap">
 					   	<div class="slider-left">
-							<img src="images/banner1.jpg" alt=""/> 
+							<img src="<?php echo INCLUDE_PATH ?>images/banner1.jpg" alt=""/> 
 						</div>
 						 <div class="slider-right">
 						    <h1>Classic</h1>
@@ -615,7 +615,7 @@
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
 				   	 <div class="banner-wrap">
 					   	<div class="slider-left">
-							<img src="images/banner2.jpg" alt=""/> 
+							<img src="<?php echo INCLUDE_PATH ?>images/banner2.jpg" alt=""/> 
 						</div>
 						 <div class="slider-right">
 						    <h1>Classic</h1>
@@ -629,7 +629,7 @@
 				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	<div class="banner-wrap">
 					   	<div class="slider-left">
-							<img src="images/banner1.jpg" alt=""/> 
+							<img src="<?php echo INCLUDE_PATH ?>images/banner1.jpg" alt=""/> 
 						</div>
 						 <div class="slider-right">
 						    <h1>Classic</h1>
@@ -643,7 +643,7 @@
 				   <article style="position: absolute; width: 100%; opacity: 0;">
 				   	<div class="banner-wrap">
 					   	<div class="slider-left">
-							<img src="images/banner2.jpg" alt=""/> 
+							<img src="<?php echo INCLUDE_PATH ?>images/banner2.jpg" alt=""/> 
 						</div>
 						 <div class="slider-right">
 						    <h1>Classic</h1>
@@ -657,7 +657,7 @@
 				   <article style="position: absolute; width: 100%; opacity: 0;"> 
 				   	 <div class="banner-wrap">
 					   	<div class="slider-left">
-							<img src="images/banner1.jpg" alt=""/> 
+							<img src="<?php echo INCLUDE_PATH ?>images/banner1.jpg" alt=""/> 
 						</div>
 						 <div class="slider-right">
 						    <h1>Classic</h1>
@@ -678,8 +678,8 @@
                 	<li><a href="#">4</a></li>
                   </ul>
                  <a class="wmuSliderPrev">Previous</a><a class="wmuSliderNext">Next</a><ul class="wmuSliderPagination"><li><a href="#" class="wmuActive">0</a></li><li><a href="#" class="">1</a></li><li><a href="#" class="">2</a></li><li><a href="#" class="">3</a></li><li><a href="#" class="">4</a></li></ul></div>
-            	 <script src="js/jquery.wmuSlider.js"></script> 
-				 <script type="text/javascript" src="js/modernizr.custom.min.js"></script> 
+            	 <script src="<?php echo INCLUDE_PATH ?>js/jquery.wmuSlider.js"></script> 
+				 <script type="text/javascript" src="<?php echo INCLUDE_PATH ?>js/modernizr.custom.min.js"></script> 
 						<script>
        						 $('.example1').wmuSlider();         
    						</script> 	           	      
@@ -723,7 +723,7 @@
 					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
 					  	<p class="m_2">Lorem ipsum</p>
 				         <div class="grid_img">
-						   <div class="css3"><img src="images/pic.jpg" alt=""/></div>
+						   <div class="css3"><img src="<?php echo INCLUDE_PATH ?>images/pic.jpg" alt=""/></div>
 					          <div class="mask">
 	                       		<div class="info">Quick View</div>
 			                  </div>
@@ -746,7 +746,7 @@
 		    	      </span>
 						 <ul class="list">
 						  <li>
-						  	<img src="images/plus.png" alt=""/>
+						  	<img src="<?php echo INCLUDE_PATH ?>images/plus.png" alt=""/>
 						  	<ul class="icon1 sub-icon1 profile_img">
 							  <li><a class="active-icon c1" href="#">Add To Bag </a>
 								<ul class="sub-icon1 list">
@@ -765,7 +765,7 @@
 					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
 					  	<p class="m_2">Lorem ipsum</p>
 					    <div class="grid_img">
-						   <div class="css3"><img src="images/pic1.jpg" alt=""/></div>
+						   <div class="css3"><img src="<?php echo INCLUDE_PATH ?>images/pic1.jpg" alt=""/></div>
 					          <div class="mask">
 	                       		<div class="info">Quick View</div>
 			                  </div>
@@ -807,7 +807,7 @@
 					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
 					  	<p class="m_2">Lorem ipsum</p>
 				         <div class="grid_img">
-						   <div class="css3"><img src="images/pic2.jpg" alt=""/></div>
+						   <div class="css3"><img src="<?php echo INCLUDE_PATH ?>images/pic2.jpg" alt=""/></div>
 					          <div class="mask">
 	                       		<div class="info">Quick View</div>
 			                  </div>
@@ -830,7 +830,7 @@
 		    	      </span>
 						 <ul class="list">
 						  <li>
-						  	<img src="images/plus.png" alt=""/>
+						  	<img src="<?php echo INCLUDE_PATH ?>images/plus.png" alt=""/>
 						  	<ul class="icon1 sub-icon1 profile_img">
 							  <li><a class="active-icon c1" href="#">Add To Bag </a>
 								<ul class="sub-icon1 list">
@@ -852,7 +852,7 @@
 					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
 					  	<p class="m_2">Lorem ipsum</p>
 				         <div class="grid_img">
-						   <div class="css3"><img src="images/pic3.jpg" alt=""/></div>
+						   <div class="css3"><img src="<?php echo INCLUDE_PATH ?>images/pic3.jpg" alt=""/></div>
 					          <div class="mask">
 	                       		<div class="info">Quick View</div>
 			                  </div>
@@ -894,7 +894,7 @@
 					  	<h3 class="m_1">Lorem ipsum dolor sit amet</h3>
 					  	<p class="m_2">Lorem ipsum</p>
 				         <div class="grid_img">
-						   <div class="css3"><img src="images/pic4.jpg" alt=""/></div>
+						   <div class="css3"><img src="<?php echo INCLUDE_PATH ?>images/pic4.jpg" alt=""/></div>
 					          <div class="mask">
 	                       		<div class="info">Quick View</div>
 			                  </div>
@@ -917,7 +917,7 @@
 		    	      </span>
 						 <ul class="list">
 						  <li>
-						  	<img src="images/plus.png" alt=""/>
+						  	<img src="<?php echo INCLUDE_PATH ?>images/plus.png" alt=""/>
 						  	<ul class="icon1 sub-icon1 profile_img">
 							  <li><a class="active-icon c1" href="#">Add To Bag </a>
 								<ul class="sub-icon1 list">
