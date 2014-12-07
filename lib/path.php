@@ -7,7 +7,7 @@ class path {
          //define('PATH','http://'.$_SERVER["HTTP_HOST"].'/');
          define('ADMIN',PATH.'admin/');
          define('INCLUDE_PATH',PATH.'public/');      
-         define('ADMIN_INCLUDE_PATH',PATH.'public/admin/');      
+         define('ADMININCLUDE',PATH.'public/admin/');      
          define("GALLERY_PATH","photos/gallery/");
          define("HEADER_PATH","photos/header/");
          define("PHOTO_PATH",PATH."photos/");       

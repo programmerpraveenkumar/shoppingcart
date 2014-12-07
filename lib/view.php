@@ -6,7 +6,7 @@ class view{
              require $file;
         }
         else{            
-               error::developerError($file,'view');           
+               error::developerError($file,'view is not found');           
         }
     
     }

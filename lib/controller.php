@@ -20,4 +20,8 @@ class controller{
                   exit();
         }               
     }
+    protected function logout(){
+                session::delete('admin');
+                $this->adminSessionCheck();
+    }
 }
